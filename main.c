@@ -71,15 +71,15 @@ int introgame() {
 
 	int returngame;
 
-	printf(" ____o__ __o____    o                    o                                   o                               \n");
-	printf("  /   
-	printf("       \\o/                              < >                                 < >                              \n");
-	printf("        |           o        __o__       |         o__ __o/      __o__       |        o__ __o      o__  __o  \n");
-	printf("       < >         <|>      />  \\        o__/_    /v     |      />  \\        o__/_   /v     v\\    /v      |> \n");
-	printf("        |          / \\    o/             |       />     / \\   o/             |      />       <\\  />      //  \n");
-	printf("        o          \\o/   <|              |       \\      \\o/  <|              |      \\         /  \\o    o/    \n");
-	printf("       <|           |     \\             o        o      |    \\             o       o       o    v\\  /v __o \n");
-	printf("       / \\         / \\     _\\o__</       <\\__     <\\__  / \\    _\\o__</       <\\__    <\\__ __/>     <\\/> __/> \n\n");
+	printf("____o__ __o____    o                    o                                  o                               \n");
+	printf("/   \\   /   \\    _<|>_                 <|>                                <|>                              \n");
+	printf("     \\o/                               < >                                < >                              \n");
+	printf("      |            o        __o__       |         o__ __o/      __o__      |        o__ __o      o__  __o  \n");
+	printf("     < >          <|>      />  \\        o__/_    /v     |      />  \\       o__/_   /v     v\\    /v      |> \n");
+	printf("      |           / \\    o/             |       />     / \\   o/            |      />       <\\  />      //\n");
+	printf("      o           \\o/    <|             |       \\      \\o/   <|            |      \\         /  \\o    o/    \n");
+	printf("     <|            |      \\\\            o        o      |     \\\\           o       o       o    v\\\\  /v __o \n");
+	printf("     / \\          / \\     _\\o__</      <\\__      <\\__  / \\    _\\o__</     <\\__     <\\__ __/>      <\\/> __/>\n\n");
 
 	printf("\t\tBem vindo ao jogo da velha!\n\n");
 	printf("\t\tTic Tac Toe é um jogo de tabuleiro simples para dois jogadores, onde um marca 'X' e o outro 'O' em uma grade 3x3. \n\t\tO objetivo é ser o primeiro a alinhar três de suas marcas, seja na horizontal, vertical ou diagonal. \n\t\tO jogo termina em vitória ou empate se todas as casas forem preenchidas sem vencedor.\n");
