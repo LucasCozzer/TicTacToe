@@ -1,47 +1,51 @@
 
-# Validador de CPF
+# Tic Tac Toe
 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-> Um programa em C para validar CPFs de acordo com as regras da Receita Federal do Brasil. Ele verifica se um CPF informado é válido ou inválido com base nos cálculos de dígito verificador e formatação.
+<img src="./src/img/cover.png" alt="Exemplo imagem do jogo">
+
+> Tic Tac Toe é um jogo de tabuleiro clássico onde dois jogadores competem em um tabuleiro 3x3. O objetivo é alinhar três marcas em uma linha, coluna ou diagonal.
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão mais recente do GCC.
+- Você tem uma máquina Linux ou macOS. O jogo pode não ser compatível com Windows sem ajustes.
 - Você leu a documentação do GCC.
 
-## 🚀 Instalando e Compilando o Validador de CPF
+## 🚀 Instalando Tic Tac Toe
 
-Para instalar e compilar o Validador de CPF, siga estas etapas::
+Para instalar o Tic Tac Toe, siga estas etapas:
 
 Linux e macOS:
-	</br><code>git clone https://github.com/seu-usuario/validador-cpf.git</code></br>
-  <code>cd validador-cpf</code></br>
-	<code>gcc -o validador-cpf main.c</code>
+	</br><code>git clone [https://github.com/seu-usuario/tic-tac-toe.git](https://github.com/seu-usuario/tic-tac-toe.git)</code></br>
+  <code>cd tic-tac-toe</code></br>
+	<code>gcc -o tic-tac-toe main.c</code>
 
 Windows:
-</br><code>git clone https://github.com/seu-usuario/validador-cpf.git</code></br>
-  <code>cd validador-cpf</code></br>
-	<code>gcc -o validador-cpf main.c</code>
+</br><code>git clone [https://github.com/seu-usuario/tic-tac-toe.git](https://github.com/seu-usuario/tic-tac-toe.git)</code></br>
+  <code>cd tic-tac-toe</code></br>
+	<code>gcc -o tic-tac-toe main.c</code>
 
 
-## ☕ gcc -o validador-cpf main.c
+## ☕ Usando Tic Tac Toe
 
 Para usar Tic Tac Toe, siga estas etapas:
 
-<code>./validador-cpf</code>
+<code>./tic-tac-toe</code>
 
-O programa informará se o CPF é válido ou inválido com base nos cálculos dos dígitos verificadores.
+
+Inicie o jogo e siga as instruções na tela para jogar com um amigo!
 
 ## 📫 Contribuindo para Tic Tac Toe
 
-Para contribuir com o Validador de CPF, siga estas etapas:
+Para contribuir com Tic Tac Toe, siga estas etapas:
 
-Faça um fork deste repositório.
-Crie um branch para sua feature: git checkout -b minha-nova-feature.
-Faça suas alterações e confirme-as: git commit -m 'Adicionando nova feature'.
-Envie para o branch original: git push origin minha-nova-feature.
-Crie uma solicitação de pull.
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b minha-nova-feature`.
+3. Faça suas alterações e confirme-as: `git commit -m 'Adicionando nova feature'`.
+4. Envie para o branch original: `git push origin minha-nova-feature`.
+5. Crie a solicitação de pull.
